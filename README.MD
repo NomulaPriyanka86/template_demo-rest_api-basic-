@@ -26,7 +26,7 @@
 --from here get and post url will be opened as per the data we are entering into it.
 
 --for POST---------app.use(express.urlencoded({extended:true}))-----Should be added at top-----req.body through a form subbmission
---when we are send the data in the form of JSON we use -----app.use(express.json) like this check
+--when we are send the data in the form of JSON we use -----app.use(express.json())
 
 ======================================NOTE=====================================================
 req.params-------------for GET
